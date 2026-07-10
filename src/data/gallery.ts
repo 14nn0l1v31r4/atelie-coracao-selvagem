@@ -28,127 +28,162 @@ export type GalleryItem = {
 
 export const galleryItems: GalleryItem[] = [
   {
-    id: 'colecao-botanica',
-    title: 'Coleção botânica',
-    category: 'Folhas',
-    description:
-      'Conjunto de folhas artesanais inspirado em diferentes espécies, formatos, nervuras e combinações de cores.',
-    image: '/images/galeria/folhas/colecao-botanica.jpeg',
-    images: [
-      '/images/galeria/folhas/colecao-botanica.jpeg',
-      '/images/galeria/folhas/colecao-botanica-detalhe.jpeg',
-    ],
-    alt: 'Coleção de folhas artesanais em diferentes formatos e cores',
-    objectPosition: 'center',
-  },
-  {
-    id: 'monstera-dois-tons',
-    title: 'Monstera em dois tons',
-    category: 'Folhas',
-    description:
-      'Peça inspirada na folha da monstera, com recortes característicos e pintura em diferentes tonalidades de verde.',
-    image: '/images/galeria/folhas/monstera-dois-tons.jpeg',
-    alt: 'Folha artesanal de monstera pintada em dois tons de verde',
-    objectPosition: 'center',
-  },
-  {
-    id: 'folha-geometrica',
-    title: 'Folha Ficus',
-    category: 'Folhas',
-    description:
-      'Folha alongada com pintura abstrata composta por verde profundo, verde médio, amarelo e uma nervura central escura.',
-    image: '/images/galeria/folhas/folha-geometrica.jpeg',
-    alt: 'Folha artesanal com pintura geométrica verde, amarela e preta',
-    objectPosition: 'center',
-  },
-  {
-    id: 'folha-coracao',
-    title: 'Folha Pink Princess - Philodendron ',
-    category: 'Folhas',
-    description:
-      'Folha em formato de coração com composição livre em verde profundo, verde oliva e rosa.',
-    image: '/images/galeria/folhas/folha-coracao-rosa-verde-01.jpeg',
-    images: [
-      '/images/galeria/folhas/folha-coracao-rosa-verde-01.jpeg',
-      '/images/galeria/folhas/folha-coracao-rosa-verde-02.jpeg',
-      '/images/galeria/folhas/folha-coracao-rosa-verde-03.jpeg',
-    ],
-    alt: 'Folha artesanal em formato de coração pintada de verde e rosa',
-    objectPosition: 'center',
-  },
-  {
-    id: 'liberdade-para-voltar',
-    title: 'Liberdade para voltar',
-    category: 'Frases',
-    description:
-      'Prato decorativo azul com um pequeno barco vermelho e a frase “Liberdade é ter pra onde voltar”.',
-    image: '/images/galeria/frases/liberdade-para-voltar.jpeg',
-    alt: 'Prato azul com um barco vermelho e uma frase gravada ao redor',
-    objectPosition: 'center',
-  },
-  {
-    id: 'no-tempo-certo',
-    title: 'No tempo certo',
-    category: 'Frases',
-    description:
-      'Uma peça em vermelho bordô com a frase “A gente nunca está atrasado pro que é nosso”.',
-    image: '/images/galeria/frases/no-tempo-certo.jpeg',
-    alt: 'Peça circular vermelha com uma frase gravada',
-    objectPosition: 'center',
-  },
-  {
-    id: 'o-melhor-lugar',
-    title: 'O melhor lugar',
-    category: 'Frases',
-    description:
-      'Uma lembrança de que o melhor lugar do mundo pode estar exatamente onde estamos.',
-    image: '/images/galeria/frases/o-melhor-lugar.jpeg',
-    alt: 'Peça circular azul com a frase O melhor lugar do mundo é aqui',
-    objectPosition: 'center',
-  },
-  {
-    id: 'tudo-aqui-foi-um-sonho',
-    title: 'Tudo aqui já foi um sonho',
-    category: 'Frases',
-    description:
-      'Uma paisagem colorida com uma pequena casa em relevo, celebrando sonhos que ganharam forma.',
-    image: '/images/galeria/frases/tudo-aqui-foi-um-sonho-02.jpeg',
-    images: [
-      '/images/galeria/frases/tudo-aqui-foi-um-sonho-02.jpeg',
-      '/images/galeria/frases/tudo-aqui-foi-um-sonho-01.jpeg',
-      '/images/galeria/frases/tudo-aqui-foi-um-sonho-ambientada.jpeg',
-    ],
-    alt: 'Peça circular colorida com uma casa e a frase Tudo aqui já foi um sonho',
-    objectPosition: 'center',
-  },
-  {
-    id: 'marca-de-carinho',
-    title: 'Marca de Gamora',
-    category: 'Afetos',
-    description:
-      'Uma pequena memória moldada em cerâmica fria, preservando a impressão de uma pata.',
-    image: '/images/galeria/afetos/marca-de-carinho.jpeg',
-    alt: 'Peça circular verde com a impressão de uma pata',
-    objectPosition: 'center',
-  },
-  {
-    id: 'travessia',
-    title: 'Travessia',
-    category: 'Utilitários',
-    description:
-      'Pratinho de bordas orgânicas com acabamento pontilhado, palavra gravada e uma seta indicando movimento.',
-    image: '/images/galeria/utilitarios/travessia.jpeg',
-    alt: 'Pratinho artesanal claro com a palavra Travessia e uma seta',
-    objectPosition: 'center',
-  },
-  {
-    id: 'rosto-essencial',
-    title: 'Rosto essencial',
+    id: 'quadro-folha-verde',
+    title: 'Quadro folha verde',
     category: 'Decorativas',
     description:
-      'Um rosto construído com linhas simples e volumes em relevo sobre uma base em tom de terracota.',
-    image: '/images/galeria/decorativas/rosto-essencial.jpeg',
-    alt: 'Peça decorativa em terracota com desenho abstrato de um rosto',
+      'Composição decorativa com folha verde rajada em relevo, apresentada em moldura preta.',
+    image: '/images/galeria/decorativas/quadro-folha-verde-01.webp',
+    images: [
+      '/images/galeria/decorativas/quadro-folha-verde-01.webp',
+      '/images/galeria/decorativas/quadro-folha-verde-02.webp',
+    ],
+    alt: 'Quadro preto com folha verde rajada em relevo',
     objectPosition: 'center',
+  },
+  {
+    id: 'onca-ceramica',
+    title: 'Onça em cerâmica',
+    category: 'Decorativas',
+    description:
+      'Peça decorativa em formato de onça, com pintura amarela e manchas pretas.',
+    image: '/images/galeria/decorativas/onca-ceramica-02.webp',
+    images: [
+      '/images/galeria/decorativas/onca-ceramica-02.webp',
+      '/images/galeria/decorativas/onca-ceramica-01.webp',
+    ],
+    alt: 'Onça decorativa em cerâmica pintada de amarelo com manchas pretas',
+    objectPosition: 'center',
+  },
+  {
+    id: 'folha-verde-marrom',
+    title: 'Folha verde e marrom',
+    category: 'Folhas',
+    description:
+      'Folha orgânica com centro verde vibrante, bordas escuras e nervuras em tons terrosos.',
+    image: '/images/galeria/folhas/folha-verde-marrom-01.webp',
+    alt: 'Folha artesanal verde e marrom com nervuras em relevo',
+    objectPosition: 'center',
+  },
+  {
+    id: 'folha-veios-brancos',
+    title: 'Folha com veios brancos',
+    category: 'Folhas',
+    description:
+      'Folha alongada em tons de verde com nervura central escura e veios brancos em relevo.',
+    image: '/images/galeria/folhas/folha-veios-brancos-01.webp',
+    alt: 'Folha artesanal verde com veios brancos',
+    objectPosition: 'center',
+  },
+  {
+    id: 'folha-espada-rajada',
+    title: 'Folha espada rajada',
+    category: 'Folhas',
+    description:
+      'Folha estreita inspirada em espada-de-são-jorge, com pintura rajada em verdes e borda amarela.',
+    image: '/images/galeria/folhas/folha-espada-amarela-01.webp',
+    images: [
+      '/images/galeria/folhas/folha-espada-amarela-01.webp',
+      '/images/galeria/folhas/folha-rajada-amarela-01.webp',
+    ],
+    alt: 'Folha estreita verde rajada com borda amarela',
+    objectPosition: 'center',
+  },
+  {
+    id: 'folha-costela-adao',
+    title: 'Folha Costela-de-adão',
+    category: 'Folhas',
+    description:
+      'Peça inspirada na costela-de-adão, com recortes característicos e acabamento verde brilhante.',
+    image: '/images/galeria/folhas/folha-costela-adao-01.webp',
+    images: [
+      '/images/galeria/folhas/folha-costela-adao-01.webp',
+      '/images/galeria/folhas/folha-costela-adao-02.webp',
+      '/images/galeria/folhas/folha-costela-adao-03.webp',
+    ],
+    alt: 'Folha artesanal costela-de-adão verde esmaltada',
+    objectPosition: 'center',
+  },
+  {
+    id: 'folha-pintada-vinho',
+    title: 'Folha pintada com borda vinho',
+    category: 'Folhas',
+    description:
+      'Folha escura com pintas brancas, detalhes em verde e borda em tom vinho.',
+    image: '/images/galeria/folhas/folha-pintada-vinho-01.webp',
+    images: [
+      '/images/galeria/folhas/folha-pintada-vinho-01.webp',
+      '/images/galeria/folhas/folha-pintada-vinho-02.webp',
+    ],
+    alt: 'Folha artesanal escura com pintas brancas e borda vinho',
+    objectPosition: 'center',
+  },
+  {
+    id: 'folha-veios-vermelhos',
+    title: 'Folha com veios vermelhos',
+    category: 'Folhas',
+    description:
+      'Folha verde escura com pintas brancas e nervuras em vermelho, com acabamento brilhante.',
+    image: '/images/galeria/folhas/folha-vermelha-02.webp',
+    images: [
+      '/images/galeria/folhas/folha-vermelha-02.webp',
+      '/images/galeria/folhas/folha-vermelha-01.webp',
+    ],
+    alt: 'Folha artesanal verde com veios vermelhos e pintas brancas',
+    objectPosition: 'center',
+  },
+  {
+    id: 'folha-rosa-parede',
+    title: 'Folha rosa na parede',
+    category: 'Folhas',
+    description:
+      'Folha decorativa de parede com fundo rosa e pintura botânica em tons de verde.',
+    image: '/images/galeria/folhas/folha-rosa-parede-01.webp',
+    alt: 'Folha artesanal rosa com detalhes verdes fixada na parede',
+    objectPosition: 'center',
+  },
+  {
+    id: 'folha-coracao-verde-branca',
+    title: 'Folha coração verde e branca',
+    category: 'Afetos',
+    description:
+      'Folha em formato de coração com composição em verde profundo, branco e pequenos pontos claros.',
+    image: '/images/galeria/afetos/folha-coracao-verde-branca-01.webp',
+    alt: 'Folha em formato de coração verde e branca',
+    objectPosition: 'center',
+  },
+  {
+    id: 'folha-coracao-rosa',
+    title: 'Folha coração rosa',
+    category: 'Afetos',
+    description:
+      'Peça em formato de coração com centro rosa, bordas verdes e nervuras vermelhas.',
+    image: '/images/galeria/afetos/folha-coracao-rosa-01.webp',
+    images: [
+      '/images/galeria/afetos/folha-coracao-rosa-01.webp',
+      '/images/galeria/afetos/folha-coracao-rosa-02.webp',
+    ],
+    alt: 'Folha artesanal em formato de coração rosa e verde',
+    objectPosition: 'center',
+  },
+  {
+    id: 'folha-coracao-pintas-rosa',
+    title: 'Folha coração com pintas rosas',
+    category: 'Afetos',
+    description:
+      'Folha em formato de coração com fundo verde escuro e manchas rosas em contraste.',
+    image: '/images/galeria/afetos/folha-coracao-pintas-rosa-01.webp',
+    alt: 'Folha artesanal em formato de coração escura com pintas rosas',
+    objectPosition: 'center',
+  },
+  {
+  id: 'colecao-botanica-parede',
+  title: 'Coleção botânica na parede',
+  category: 'Folhas',
+  description:
+    'Composição de parede formada por diferentes folhas artesanais, com formatos, cores e pinturas inspiradas na diversidade botânica.',
+  image: '/images/galeria/folhas/colecao-botanica-parede-01.webp',
+  alt: 'Composição de parede com várias folhas artesanais coloridas e uma pequena peça com frase',
+  objectPosition: 'center',
   },
 ]
